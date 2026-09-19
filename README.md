@@ -1,1 +1,0 @@
-# Laundary_responsive_page
