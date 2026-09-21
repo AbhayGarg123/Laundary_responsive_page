@@ -104,6 +104,10 @@ body {
     font-weight: 600;
     cursor: pointer;
 }
+.cta-btn:hover {
+    background-color: #0086c1;
+    transform: scale(1.1) rotate(-5deg);
+}
 .hero-image {
     flex: 1;
     display: flex;
