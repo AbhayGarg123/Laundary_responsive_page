@@ -119,6 +119,45 @@ body {
     max-width: 450px;
     height: auto;
 }
+.hero-image {
+    animation: washingMove 1s linear infinite;
+}
+ @keyframes washingMove {
+    0% {
+        transform: rotate(0deg) translateX(20px) rotate(0deg) scale(1);
+    }
+
+    20% {
+        transform: rotate(72deg) translateX(20px) rotate(-72deg) scale(1);
+    }
+
+    40% {
+        transform: rotate(144deg) translateX(20px) rotate(-144deg) scale(1);
+    }
+
+    60% {
+        transform: rotate(216deg) translateX(20px) rotate(-216deg) scale(1);
+    }
+
+    75% {
+        transform: rotate(270deg) translateX(20px) rotate(-270deg) scale(1);
+    }
+    85% {
+        transform: rotate(306deg) translateX(20px) rotate(-306deg) scale(0.92);
+    }
+
+    90% {
+        transform: rotate(324deg) translateX(20px) rotate(-324deg) scale(1.12);
+    }
+
+    95% {
+        transform: rotate(342deg) translateX(20px) rotate(-342deg) scale(0.96);
+    }
+
+    100% {
+        transform: rotate(360deg) translateX(20px) rotate(-360deg) scale(1);
+    }
+}
 @media (max-width: 900px) {
     .navbar {
         padding: 1.2rem 2rem;
